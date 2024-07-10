@@ -4,7 +4,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    margin: 0 20px;
 }
 footer .first-div{
     width: 280px;
