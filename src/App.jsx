@@ -5,6 +5,7 @@ import Footer from './component/footer'
 import Discover from './component/home/discover'
 import Categories from './component/home/categories'
 import Arrival from './component/home/arrival'
+import Product from './component/home/product'
 
 const App = ()=>{
 
@@ -15,6 +16,7 @@ const App = ()=>{
       <Discover />
       <Categories />
       <Arrival />
+      <Product />
       <Footer />
     </>
   )
