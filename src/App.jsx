@@ -1,6 +1,7 @@
 import './App.css'
 import NavbarMobile from './component/navBarMobile'
 import NavbarDesktop from './component/navBardesktop'
+import Footer from './component/footer'
 
 const App = ()=>{
 
@@ -8,6 +9,7 @@ const App = ()=>{
     <>
       <NavbarDesktop />
       <NavbarMobile />
+      <Footer />
     </>
   )
 }
