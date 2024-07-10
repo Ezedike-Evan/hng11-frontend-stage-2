@@ -46,3 +46,17 @@
     text-align: center;
     font-weight: 700;
 }
+@media (max-width:450px) {
+    .categories .category-cards{
+        display: block;
+    }
+    .category-cards .category-card{
+        margin: 20px 10px;
+    }
+    .category-cards .category-card img{
+        width: 250px;
+    }
+    .category-cards .category-card p{
+        font-size: 12px;
+    }
+}
