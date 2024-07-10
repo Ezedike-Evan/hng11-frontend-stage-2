@@ -1,0 +1,48 @@
+nav{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+nav>div,
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav h1{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 18px;
+}
+nav .navigation{
+    width: 230px;
+    justify-content: space-between;
+}
+nav ul li{
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 500;
+}
+.search{
+    background-color: #FFF;
+    width: 170px;
+    position: relative;
+    padding-left: 20px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+.search .search-icon{
+    position: absolute;
+    top: 50%;
+    left: 3px;
+    transform: translate(0 , -50%);
+}
+.search input{
+    width: 150px;
+    border: none;
+}
+.others li{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
