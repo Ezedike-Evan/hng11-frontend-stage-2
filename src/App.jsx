@@ -1,11 +1,13 @@
 import './App.css'
-import Navbar from './component/navBar'
+import NavbarMobile from './component/navBarMobile'
+import NavbarDesktop from './component/navBardesktop'
 
 const App = ()=>{
 
   return (
     <>
-      <Navbar />
+      <NavbarDesktop />
+      <NavbarMobile />
     </>
   )
 }

@@ -1,10 +1,10 @@
-import '../css/navbar.css'
+import '../css/navbardesktop.css'
 import { IoSearchOutline } from "react-icons/io5"
 import { PiHandbagSimple } from "react-icons/pi"
 
-const Navbar = ()=>{
+const NavbarDesktop = ()=>{
     return(
-        <nav>
+        <nav className='navDesktop'>
             <div>
                 <h1>steeze</h1>
                 <ul className='navigation'>
@@ -38,4 +38,4 @@ const Navbar = ()=>{
     )
 }
 
-export default Navbar
+export default NavbarDesktop
