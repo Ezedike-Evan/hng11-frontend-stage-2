@@ -10,7 +10,7 @@ const Footer = ()=>{
                 </div>
                 <p>&copy; 2024 Steeze, All rights reserved.</p>
             </div>
-            <div style={{display:'flex'}}>
+            <div className='links-container'>
                 <div className='links'>
                     <h6>About</h6>
                     <p>Steeze Express</p> 
