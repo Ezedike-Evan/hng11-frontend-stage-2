@@ -1,0 +1,48 @@
+.categories{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    padding: 10px 20px;
+}
+.categories .first-div{
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.categories .first-div h2,
+.categories .first-div p{
+    font-family: Public Sans;
+}
+.categories .first-div p{
+    opacity: 50%;
+    line-height: 18px;
+    font-size: 11px;
+    margin-top: 10px;
+}
+.categories .first-div button{
+    padding: 5px 25px;
+    font-size: 9px;
+    margin-top: 10px;
+    font-weight: 600;
+    border: 1px solid #FF8000;
+    color: #FF8000;
+}
+.categories .category-cards{
+    display: flex;
+    margin-top: 25px;
+}
+.category-cards .category-card{
+    margin: 0 10px;
+}
+.category-cards .category-card img{
+    width: 150px;
+}
+.category-cards .category-card p{
+    font-size: 9px;
+    font-family: Public Sans;
+    text-align: center;
+    font-weight: 700;
+}
