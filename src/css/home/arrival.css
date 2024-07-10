@@ -1,0 +1,62 @@
+.arrival{
+    background-color: #FFF2E6;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    padding: 10px 20px;
+}
+.arrival .first-div{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.arrival .first-div h2,
+.arrival .first-div p{
+    font-family: Public Sans;
+}
+.arrival .first-div p{
+    opacity: 50%;
+    line-height: 18px;
+    font-size: 11px;
+    margin-top: 10px;
+}
+.arrival .first-div button{
+    background-color: transparent;
+    padding: 5px 25px;
+    font-size: 9px;
+    margin-top: 10px;
+    font-weight: 600;
+    border: 1px solid #FF8000;
+    color: #FF8000;
+}
+.arrival .arrival-cards{
+    display: flex;
+    margin-top: 75px;
+}
+.arrival-cards .arrival-card{
+    margin: 0 10px;
+}
+.arrival-cards .arrival-card:nth-child(2){
+    margin-top: -50px;
+}
+.arrival-cards .arrival-card img{
+    width: 150px;
+}
+@media (max-width:450px) {
+    .arrival .arrival-cards{
+        display: block;
+        margin-top: 25px;
+    }
+    .arrival-cards .arrival-card:nth-child(2){
+        margin-top: 0;
+    }
+    .arrival-cards .arrival-card{
+        margin: 20px 0;
+    }
+    .arrival-cards .arrival-card img{
+        width: 250px;
+    }
+}

@@ -4,6 +4,7 @@ import NavbarDesktop from './component/navBardesktop'
 import Footer from './component/footer'
 import Discover from './component/home/discover'
 import Categories from './component/home/categories'
+import Arrival from './component/home/arrival'
 
 const App = ()=>{
 
@@ -13,6 +14,7 @@ const App = ()=>{
       <NavbarMobile />
       <Discover />
       <Categories />
+      <Arrival />
       <Footer />
     </>
   )
